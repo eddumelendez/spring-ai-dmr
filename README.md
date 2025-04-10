@@ -4,7 +4,7 @@
 
 * Docker Desktop 4.40.0 or later
 * Enable Docker Model Runner, `docker desktop enable model-runner`
-* Pull model, `docker model pull ai/gemma3:4B-F16`
+* Pull model, `docker model pull ai/gemma3`
 * Java 21 or later
 
 ## Run the Application
