@@ -35,7 +35,7 @@ public class ChatController {
     public String stocks(@RequestParam String message) {
         return this.chatClient.prompt()
                 .user(message)
-                .tools("stockFunction")
+                .toolNames("stockFunction")
                 .call()
                 .content();
     }
